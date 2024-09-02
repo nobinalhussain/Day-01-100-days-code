@@ -1,0 +1,51 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  background-color: #fff;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 20px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  border-radius: 20px;
+}
+.container li {
+  font-size: 20px;
+  color: rgb(68, 66, 66);
+  margin-bottom: 10px;
+}
+.container li::marker {
+  color: brown;
+}
+.heroImg {
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 50px;
+}
+.heading-text {
+  font-size: 20px;
+  color: rgb(68, 66, 66);
+}
+.sub-heading-one {
+  color: rgb(109, 26, 26);
+  font-size: 30px;
+}
+.sub-heading {
+  font-size: 40px;
+  color: rgb(151, 18, 18);
+}
+.Nutrition-type {
+  display: flex;
+  justify-content: space-around;
+}
+.Nutrition ul {
+  list-style-type: none;
+}
