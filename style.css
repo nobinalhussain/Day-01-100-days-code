@@ -1,5 +1,21 @@
+/* Mod */
+
 body {
   background-color: antiquewhite;
+  /* add */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  /* margin: 100px; */
+  padding: 50px;
+  border-radius: 20px;
+  /* add */
+  width: 70rem;
 }
 
 .container {
@@ -8,6 +24,7 @@ body {
   padding: 50px;
   border-radius: 20px;
 }
+
 img {
   width: 100%;
   height: 100%;
@@ -48,4 +65,22 @@ img {
 }
 .Nutrition ul {
   list-style-type: none;
+}
+/* Mod */
+.Preparation {
+  background-color: rgb(255, 247, 251);
+  padding: 5px 10px;
+}
+.Nutrition-type ul:nth-child(2) li {
+  font-weight: bold;
+  color: rgb(109, 26, 26);
+}
+
+/* Mod media query */
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 25px;
+  }
 }
